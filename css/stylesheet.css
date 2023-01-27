@@ -378,3 +378,40 @@ video{
     margin: 0 auto;
 }
 /* industry_end */
+
+/* company_start */
+.company{
+    background: url('../images/company.png') no-repeat center;
+    background-size: cover;
+    padding: 60px 0;
+}
+.company_inner{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+.company_inner h2{
+    width: 60%;
+    font-size: 36px;
+    line-height: 46px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 auto 20px;
+}
+.company_link{
+    width: 26%;
+    background-color: #fff;
+    display: inline-block;
+    padding: 10px;
+    margin: 0 10px;
+}
+.company_link a{
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #0093cf;
+}
+/* company_end */
