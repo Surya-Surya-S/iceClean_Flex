@@ -27,9 +27,11 @@ body{
 }
 .header_inner{
     width: 80%;
+    overflow: hidden;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
     margin: 0 auto;
 }
 .header_top, .header_bottom{
@@ -103,10 +105,24 @@ body{
     margin: 0 0 0 -8px;
 }
 .ht_right{
+    width: 50%;
     text-align: end;
+    margin: 0 auto;
 }
 .ht_left{
+    width: 30%;
     margin: 11px 0;
+}
+form{
+    margin-bottom: -35px;
+}
+.fa-magnifying-glass{
+    font-size: 22px;
+    background: #0093cf;
+    border: 7px solid #0093cf;
+}
+.logo a{
+    padding-left: 40px;
 }
 .header_top .header_inner{
     padding: 4px 0;
@@ -145,11 +161,7 @@ input {
     margin: -1px 0 0 0;
 }
 .header_middle .ht_right{
-    padding: 62px 0 62px 76px;
-}
-form{
-    display: flex;
-    align-items: center;
+    padding: 62px 40px 62px 0;
 }
 .header_link{
     width: 80%;
@@ -178,9 +190,10 @@ form{
 .banner{
     background-color: #f6f6f6;
 }
-video{
+iframe{
     width: 100%;
-    margin: 0 0 -4px 0;
+    height: 500px;
+    margin: 0 auto;
 }
 .banner_content{
     display: flex;
@@ -431,6 +444,7 @@ footer{
 .footer_inner{
     width: 25%;
     text-align: left;
+    overflow: hidden;
     margin-bottom: 10px;
 }
 .footer_inner h2{
