@@ -1,0 +1,84 @@
+@media only screen and (min-width: 576px) and (max-width: 768px){
+.mail_id{
+    margin: 0 0 8px 0;
+}
+.header_top .header_inner{
+    padding: 0;
+}
+.ht_right {
+    width: 70%;
+}
+.logo{
+    width: auto;
+    padding: 0;
+}
+.logo a{
+    padding-left: 20px;
+}
+.header_middle .ht_right{
+    padding: 28px 30px 28px 0;
+}
+form{
+    margin-bottom: -30px;
+}
+input{
+    font-size: 14px;
+    padding: 4px 10px 4px 12px;
+}
+.fa-magnifying-glass{
+    font-size: 16px;
+}
+.menu li a{
+    font-size: 12px;
+}
+iframe{
+    height: 27rem;
+    margin-bottom: 30px;
+}
+.banner_content{
+    flex-direction: column;
+}
+.banner_bottom{
+    width: 50%;
+    margin-bottom: 24px;
+}
+.hire_img, .hire_img.sales, .hire_img.services{
+    width: auto;
+    height: auto;
+    margin-inline-start: auto;
+}
+.sellers_content{
+    width: 50%;
+}
+.seller_bg.sb_left, .seller_bg.sb_right{
+    margin: 0 auto 15px;
+}
+.industry_bottom{
+    flex-direction: column;
+}
+.industry_lef, .industry_rig{
+    width: 100%;
+}
+.industry_bg{
+    padding: 40px 0 120px;
+}
+.company_inner{
+    display: flex;
+    flex-direction: column;
+}
+.company_inner h2{
+    width: 86%;
+    font-size: 28px;
+    line-height: 38px;
+}
+.company_link{
+    width: 40%;
+    margin: 0 auto 20px;
+}
+.company_link:nth-child(3){
+    width: 46%;
+}
+.footer_inner{
+    width: 50%;
+}
+}
