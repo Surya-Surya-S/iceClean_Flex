@@ -82,3 +82,109 @@ iframe{
     width: 50%;
 }
 }
+
+@media only screen and (min-width: 769px) and (max-width: 992px){
+.ht_left, .ht_right{
+    width: 50%;
+    justify-content: space-between;
+}
+.mail_id{
+    margin: 0 0 8px 0;
+}
+.header_top .header_inner{
+    padding: 8px 0;
+}
+.logo{
+    width: 250px;
+    padding: 0;
+}
+.logo a{
+    padding-left: 20px;
+}
+.header_middle .ht_right{
+    padding: 28px 30px 28px 0;
+}
+form{
+    margin-bottom: -30px;
+}
+input{
+    font-size: 14px;
+    padding: 4px 10px 4px 12px;
+}
+.fa-magnifying-glass{
+    font-size: 16px;
+}
+.menu li a{
+    font-size: 12px;
+}
+iframe{
+    height: 27rem;
+}
+.hire_img.hire{
+    margin-inline: -3rem;
+}
+.hire_img.services{
+    margin-inline: -14rem;
+}
+.hire_img.sales{
+    margin-inline-start: -17rem;
+}
+.hire_img.spareparts{
+    margin-inline: -4rem;
+}
+.banner_bottom h2{
+    font-size: 20px;
+}
+.banner_bottom p{
+    font-size: 10px;
+    line-height: 20px;
+}
+.seller_bg.sb_left:nth-child(1), .seller_bg:nth-child(4){
+    margin-left: 0;
+}
+.sellers_content h2{
+    font-size: 14px;
+    font-weight: 700;
+}
+.sellers_content:nth-child(4) h2{
+    padding-left: 16px;
+}
+.industry_lef{
+    width: 40%;
+}
+.industry_lef li {
+    padding: 14px 58px;
+}
+.industry_bg p, .industry_bg li{
+    width: 84%;
+}
+.industry_bg li {
+    width: 98%;
+    padding: 2px 38px;
+}
+.industry_bg li{
+    font-size: 10px;
+}
+.industry_rig{
+    width: 60%;
+}
+.industry_bg{
+    padding: 40px 0 126px;
+}
+.company_inner h2{
+    font-size: 30px;
+    line-height: 40px;
+}
+.footer_para p, .footer_inner p{
+    width: 78%;
+    font-size: 12px;
+    line-height: 22px;
+}
+.ft_img{
+    width: 150px;
+    margin-bottom: 20px;
+}
+.fa-cc-visa{
+    font-size: 40px;
+}
+}
