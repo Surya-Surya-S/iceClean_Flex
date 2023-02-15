@@ -11,11 +11,6 @@ ul li{
 a{
     text-decoration: none;
 }
-.container{
-    max-width: 1170px;
-    width: 100%;
-    margin: 0 auto;
-}
 body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Quicksand', sans-serif;
@@ -26,7 +21,7 @@ body{
     background-size: cover;
 }
 .header_inner{
-    width: 80%;
+    width: 86%;
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
@@ -192,7 +187,7 @@ input {
 }
 iframe{
     width: 100%;
-    height: 500px;
+    display: block;
     margin: 0 auto;
 }
 .banner_content{
@@ -260,6 +255,10 @@ iframe{
     text-transform: uppercase;
     color: #fff;
 }
+.sellers_inner{
+    width: 86%;
+    margin: 0 auto;
+}
 .sellers_bottom{
     display: flex;
     flex-wrap: wrap;
@@ -278,10 +277,6 @@ iframe{
     box-shadow: -1px 2px 6px #12121233;
     overflow: hidden;
     margin: 0 auto 16px;
-}
-.sellers_img{
-    width: 250px;
-    margin: 0 auto 20px;
 }
 .sellers_img img{
     width: 100%;
@@ -326,6 +321,10 @@ iframe{
     text-transform: uppercase;
     color: #fff;
 }
+.industry_inner{
+    width: 86%;
+    margin: 0 auto;
+}
 .industry_bottom{
     display: flex;
     flex-wrap: wrap;
@@ -364,7 +363,7 @@ iframe{
 }
 .industry_rig{
     background: url('../images/industry_bg.jpg') no-repeat center;
-    background-position: cover;
+    background-size: cover;
 }
 .industry_bg{
     width: 54%;
@@ -407,7 +406,7 @@ iframe{
     margin: 0 auto;
 }
 .company_inner h2{
-    width: 60%;
+    width: 62%;
     font-size: 36px;
     line-height: 46px;
     font-family: 'Poppins';
@@ -417,10 +416,9 @@ iframe{
     margin: 0 auto 20px;
 }
 .company_link{
-    width: 22%;
     background-color: #fff;
     display: inline-block;
-    padding: 10px;
+    padding: 14px;
     margin: 0 6px;
 }
 .company_link a{
@@ -440,6 +438,10 @@ footer{
 .footer_content, .footer_para{
     display: flex;
     flex-wrap: wrap;
+}
+.footer_content{
+    width: 86%;
+    margin: 0 auto;
 }
 .footer_inner{
     width: 25%;
