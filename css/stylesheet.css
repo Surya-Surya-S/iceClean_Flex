@@ -201,8 +201,7 @@ iframe{
     margin: 0 auto;
 }
 .hire_img{
-    width: 340px;
-    height: 340px;
+    width: 100%;
     overflow: hidden;
     margin: 0 0 20px;
 }
@@ -222,17 +221,6 @@ iframe{
     font-weight: normal;
     color: #121212;
     margin: 0 auto 20px;
-}
-.hire_img.sales{
-    width: 686px;
-    margin-inline-start: -194px;
-}
-.hire_img.services{
-    width: 538px;
-    margin-inline: -138px;
-}
-.hire_img.spareparts {
-    width: 511px;
 }
 .banner_bottom.active, .banner_bottom:hover {
     background-color: #fcfcfc;
